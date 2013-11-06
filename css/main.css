@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../font/BebasNeue-webfont.eot');
+    src: url('../font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BebasNeue-webfont.woff') format('woff'),
+         url('../font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../font/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*	=Global Novelas
+----------------------------------------*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*	=Estructure 
+----------------------------------------*/
+
+.ink-grid {
+	max-width: 1014px;
+	margin: 0 auto;
+}
+
+.content-wrapper {
+	float: left;
+	width: 100%;
+}
+
+.content-wrapper .content {
+	margin-right: 338px;
+}
+
+.fake-content  {
+	margin-right: 338px;
+	float: left;
+}
+
+.site-sidebar {
+	float: left;
+	width: 318px;
+	min-height: 100px;
+	margin-left: -318px;
+	margin-top: 0;	
+}
+
+.medium-50.column-group {
+	clear: none;
+}
+
+.list-tops .large-feature {
+	position: relative;
+}
+
+
+
+
+/*	=Navigation
+----------------------------------------*/
+.site-navigation {
+	clear: both;
+	font-family: bebas_neueregular, sans-serif;
+}
+
+.site-navigation .nav-menu {
+	z-index: 11;
+}
+
+.menu-toggle {
+	cursor: pointer;
+	display: none;
+}
+
+.ink-navigation ul.menu.black li.active {
+	background: transparent;
+}
+
+/*	=Modules
+----------------------------------------*/
+
+.pub .holder {
+	margin: 0 auto;	
+}
+
+.pub .holder.spc {
+	border: 1px solid #e5e5e5;
+	padding: 9px;	
+}
+
+.pub .holder img {
+	display: block;
+	margin: 0 auto;	
+}
+
+.thumb img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+.box-group {
+	background: #f3f3f3;
+}
+
+/*	=Lists
+-------------- --------------------------*/
+.header-group {
+	text-align: left;
+}
+
+.list .title {
+	margin: 0;
+}
+
+.list-covers {
+	text-align: center;
+}
+
+.list-covers a {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0.75em;
+	background: #ececec;
+	text-align: center;
+}
+
+/*	=Swiper gallery
+-------------- --------------------------*/
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	z-index:1;
+}
+
+.swiper-wrapper {
+	position:relative;
+	width:100%;
+	margin: 0;
+	-webkit-transition-property:-webkit-transform,left,top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	-moz-transition-property:-moz-transform,left,top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	-o-transition-property:-o-transform,left,top;
+	-o-transition-duration:0s;-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	-ms-transition-property:-ms-transform,left,top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	transition-property:transform,left,top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+
+.swiper-slide {
+	float:left; 
+	position: relative;
+	-webkit-transition:300ms;
+	-moz-transition:300ms;
+	-ms-transition:300ms;
+	-o-transition:300ms;
+	transition:300ms;
+	cursor: pointer;
+	margin: 0;
+}
+
+.swiper-slide,
+.swiper-wrapper { 
+	height: auto!important; 
+}
+
+.swiper-slide div.caption {
+	background: #000;
+	padding: 0.75em;
+	color: #fff;
+	margin: 0;
+}
+
+.swiper-container .arrow {
+	position: absolute;
+	top: 16%;
+	font-size: 100px;
+	font-family: Verdana;
+}
+
+.swiper-container #arrow3-left {
+	left: 10px;
+}
+
+.swiper-container #arrow3-right {
+	right: 10px;
+}
+
+.hero-slider article a {
+	display: block;
+}
+
+.hero-slider article img {
+	display: block;
+}
+
+/* BIG SIZE */
+
+.hero-slider .tabs-nav {
+	float: right;
+	min-height: 100px;
+	background: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.hero-slider .tabs-nav li {
+	margin: 0 0.75em;
+	clear: both;
+	display: block;
+}
+
+.hero-slider .tabs-nav li a {
+	padding: 0;
+	display: block;
+	padding: 0.75em 0;
+	float: left;
+	width: 100%;	
+	border-top: 1px solid #666;
+}
+
+.hero-slider .tabs-nav li img {
+	display: block;
+	float: left;
+	width: 183px;
+	height: auto;
+	margin-right: 0.75em;
+}
+
+.hero-slider .tabs-nav li p {
+	display: none;
+}
+
+.hero-slider .tabs-content {
+	margin: 0;
+}
+
+.hero-slider li.tab_item div.text {
+	margin: 0;
+}
